@@ -13,8 +13,8 @@ const Login = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const [data, setData] = useState({
-    email : "vicky@gmail.com",
-    password : "Vicky123@#"
+    email : "",
+    password : ""
   })
 
   const onChangeHandler = (e) => {
