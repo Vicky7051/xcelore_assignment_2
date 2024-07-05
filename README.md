@@ -55,7 +55,15 @@ npm run dev
 
 
 ## Admin login details
-- [email] - admin@gmail.com
-- [password] - admin@#123
+First Step, You need to login default admin account for manage the user and admin as well.
+
+email
+```sh
+admin@gmail.com
+```
+Password
+```sh
+Admin@#123
+```
 
 Once the admin login successfully. the you have authority to create, read, update and delete a user.
