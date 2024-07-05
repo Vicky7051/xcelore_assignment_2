@@ -1,0 +1,69 @@
+.login{
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loginCard{
+        width: 500px;
+        padding: 50px 60px;
+        background-color: #1f3165;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px #4461b7e8;
+        .logo{
+            font-size: 30px;
+            color: #FFFFFF;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            .formGroup{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                .maxWidth{
+                    width: 100%;
+                }
+                .inputBox{
+                    width: 100%;
+                    padding: 5px 10px;
+                    border: 1px solid gray;
+                    outline: none;
+                    border-radius: 5px;
+                }
+                .btn{
+                    padding: 5px 30px;
+                    border: 1px solid #FFFFFF;
+                    outline: none;
+                    background-color: transparent;
+                    color: #FFFFFF;
+                    font-weight: 600;
+                    margin-top: 20px;
+                    border-radius: 5px;
+                    transition: .3s ease-in-out;
+                }
+                .btn:hover{
+                    color: #1f3165;
+                    background-color: #DDDDDD;
+                }
+            }
+            .text{
+                color: #FFFFFF;
+                font-size: 18px;
+            }
+        }
+    }
+}
+.error{
+    font-size: 16px;
+    color: red;
+    margin-bottom: 0px;
+}
+.errorBorder{
+    border: 0.5px solid red;
+}

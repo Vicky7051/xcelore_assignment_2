@@ -1,0 +1,83 @@
+.users{
+    padding: 10px 0px;
+    .addBtn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn{
+            padding: 5px 30px;
+            border: none;
+            outline: none;
+            background: #1f3165;
+            color: #FFFFFF;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px 0px gray;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+    .info{
+        width: 100%;
+        table{
+            width: 100%;
+            thead{
+                background-color: #1f3165;
+                th{
+                    padding: 10px 10px;
+                    color: #FFFFFF;
+                }
+            }
+            tbody{
+                tr{
+                    transition: .2s ease-in-out;
+                    background-color: #DDDDDD;
+                    td{
+                        transition: .2s ease-in-out;
+                        padding: 10px 10px;
+                        font-weight: 600;
+                    }
+                }
+                tr:nth-child(even){
+                    background-color: #FFFFFF;
+                }
+                .action{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                }
+                .action i:first-child{
+                    font-size: 20px;
+                    cursor: pointer;
+                    color: green;
+                }
+                .action i:last-child{
+                    font-size: 20px;
+                    cursor: pointer;
+                    color: red;
+                }
+                tr:hover{
+                    background-color: black;
+                    cursor: pointer;
+                }
+                tr:hover td{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+.switch{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+    align-items: center;
+    float: right;
+    .inputBox{
+        padding: 5px 10px;
+        border: 1px solid gray;
+        outline: none;
+        border-radius: 5px;
+    }
+}

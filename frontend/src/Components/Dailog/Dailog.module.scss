@@ -1,0 +1,97 @@
+.dialogContainer{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .dailogBox{
+        width: 400px;
+        background-color: #FFFFFF;
+        .dailogHeader{
+            background-color: #1f3165;
+            text-align: center;
+            p{
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 600;
+                padding: 10px;
+            }
+        }
+        .dailogBody{
+            padding: 10px;
+            .buttons{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                gap: 20px;
+                width: 100%;
+                button{
+                    padding: 2px 10px;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+.dailogBody{
+    form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .formGroup{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .maxWidth{
+                width: 100%;
+            }
+            .inputBox{
+                width: 100%;
+                padding: 5px 10px;
+                border: 1px solid gray;
+                outline: none;
+                border-radius: 5px;
+            }
+            .btn{
+                padding: 5px 30px;
+                border: 1px solid #FFFFFF;
+                outline: none;
+                background-color: transparent;
+                color: #FFFFFF;
+                font-weight: 600;
+                margin-top: 20px;
+                border-radius: 5px;
+                transition: .3s ease-in-out;
+            }
+            .btn:hover{
+                color: #1f3165;
+                background-color: #DDDDDD;
+            }
+        }
+        .text{
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+    }
+}
+.error{
+    font-size: 16px;
+    color: red;
+    margin-bottom: 0px;
+}
+.errorBorder{
+    border: 0.5px solid red;
+}
+.add{
+    background-color: #1f3165;
+    color: #FFFFFF;
+}

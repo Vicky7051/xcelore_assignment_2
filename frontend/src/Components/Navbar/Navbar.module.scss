@@ -1,0 +1,41 @@
+.topNav{
+    width: 100%;
+    background-color: #1f3165;
+    padding: 10px 0px;
+    height: 65px;
+    .navParent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        h1{
+            font-size: 32px;
+            color: #FFFFFF;
+        }
+    }
+    .menu{
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            list-style: none;
+            margin-bottom: 0px;
+            li{
+                a{
+                    color: #FFFFFF;
+                    font-size: 18px;
+                }
+                .active{
+                    color: #00fff8;
+                }
+            }
+        }
+    }
+    .login{
+        a{
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+}
